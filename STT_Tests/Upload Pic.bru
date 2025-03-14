@@ -1,0 +1,16 @@
+meta {
+  name: Upload Pic
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://127.0.0.1:5001/upload
+  body: multipartForm
+  auth: none
+}
+
+body:multipart-form {
+  image1: @file(/Users/manish/Desktop/Photoes/me.jpeg)
+  image2: @file(/Users/manish/Desktop/Photoes/me.jpeg)
+}

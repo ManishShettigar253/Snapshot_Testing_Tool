@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+env/
+venv/
+
+# Uploaded Images
+static/uploads/*
+!static/uploads/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
+
+# Environment variables
+.env
